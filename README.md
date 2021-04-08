@@ -1,9 +1,17 @@
 # Userfriendly Login Form
+Demo: <https://ppphiiil.github.io/20210407-learning-login/>
+
+---
+
 ![form example](readmefiles/form.png)
+
 
 ## This points make forms userfriendly!
 
 ### Form elements
+
+---
+
 - See which form is active
 - Place labels above form elements, not to the left of them
 - Arrange lists, checkboxes, and radio buttons vertically
@@ -26,10 +34,12 @@
 - Use a sans-serif typeface with a high x-height
 
 ### Button
+---
 - interactive button
 - Consider using the first-person on buttons "create my account"
 
 ### Valitation
+---
 - Use inline validation in preference to submit validation
 - Wherever possible, the system should correct format errors itself
 - Use inline validation to confirm user progress
@@ -37,13 +47,16 @@
 - Disable the “Next” or “Submit” button until validation is passed
 
 ### data
+---
 - if you reload the page, your input is saved in Local Storage
 - Auto-save form data
 
 ### sucess
+---
 - Use success states
 
 ### Browser
+---
 - Test and optimize your form for all major browsers and devices
 
 
