@@ -25,7 +25,7 @@
 - Allow users to resize fields themselves where appropriate
 - Use a sans-serif typeface with a high x-height
 
-#### Button
+### Button
 - interactive button
 - Consider using the first-person on buttons "create my account"
 
