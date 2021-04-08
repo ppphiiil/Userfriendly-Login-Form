@@ -18,13 +18,27 @@
 ---
 
 - See which form is active
-```
-input:focus{
-    background-color: rgb(229, 229, 231);
-    outline: none;
-}
-```
+    <details><summary>Code</summary>
+    <p>
+
+    yes, even hidden code blocks!
+
+    ``` 
+    input:focus{
+        background-color: rgb(229, 229, 231);
+        outline: none;
+    }
+    ```
+
+    </p>
+    </details>
+
+
 - Place labels above form elements, not to the left of them
+
+
+
+
 - Arrange lists, checkboxes, and radio buttons vertically
 - enought distance between inputs
 - Use a stepped or multi-screen format for long forms

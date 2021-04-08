@@ -58,12 +58,14 @@ a{
     padding: 0px 70px;
 }
 .login-form > label{
+    /* display */
     display:block;
     width:100%;
-    font-size: 1.3rem;
-    color:rgb(165, 167, 182);
-  
 
+    /* styling */
+    color:rgb(165, 167, 182);
+    /* font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 1.3rem;
 }
 .login-form > input{
     display:block;
