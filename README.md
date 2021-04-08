@@ -5,6 +5,11 @@
 
 ![form example](readmefiles/form.png)
 
+## TODO
+- [ ] use a Calendar in the signup form
+- [ ] 
+
+
 
 ## This points make forms userfriendly!
 
@@ -13,6 +18,12 @@
 ---
 
 - See which form is active
+```
+input:focus{
+    background-color: rgb(229, 229, 231);
+    outline: none;
+}
+```
 - Place labels above form elements, not to the left of them
 - Arrange lists, checkboxes, and radio buttons vertically
 - enought distance between inputs
@@ -70,8 +81,7 @@ Form speed is often a neglected consideration during testing. Consider the follo
 - Time it takes the system to process the form and display a completion state or message
 
 
-# TODO
-- [ ] use a Calendar in the signup form
+
 
 
 

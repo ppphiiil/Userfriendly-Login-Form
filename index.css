@@ -102,11 +102,8 @@ input:required:invalid{
  
 }
 input:focus{
-    
-
-    outline: none;
-    
     background-color: rgb(229, 229, 231);
+    outline: none;
 }
 
 
