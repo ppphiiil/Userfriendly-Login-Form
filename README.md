@@ -12,7 +12,7 @@
 ### Form elements
 
 ---
-
+- [x] 
 <details><summary>See which form is active</summary>
 <p>
 
@@ -24,9 +24,10 @@
     ```
 </p>
 </details>
-<details><summary>Place labels above form elements, not to the left of them</summary>
-
-    <p>
+- [x] 
+<details>
+<summary>Place labels above form elements, not to the left of them</summary>
+<p>
 
     ``` 
     .login-form > label{
@@ -40,11 +41,9 @@
         font-size: 1.3rem;
     }
     ```
-</p>
-</details>
-
-
-- [ ] <details><summary>Arrange lists, checkboxes, and radio buttons vertically</summary>
+</p></details>
+- [ ] 
+<details><summary>Arrange lists, checkboxes, and radio buttons vertically</summary>
 <p>
 
     ``` 
@@ -52,7 +51,8 @@
     ```
 </p>
 </details>
-- [ ] <details><summary>enought distance between inputs
+- [x] 
+<details><summary>enought distance between inputs
 </summary>
 <p>
 
@@ -106,7 +106,7 @@
     ```
 </p>
 </details>
-- [ ] <details><summary>Optimize the order of your form fields
+- [x] <details><summary>Optimize the order of your form fields
 </summary>
 <p>
 
@@ -115,7 +115,7 @@
     ```
 </p>
 </details>
-- [ ] <details><summary>Use a one-column layout
+- [x] <details><summary>Use a one-column layout
 </summary>
 <p>
 
@@ -124,7 +124,7 @@
     ```
 </p>
 </details>
-- [ ] <details><summary>Label fields clearly and concisely
+- [x] <details><summary>Label fields clearly and concisely
 </summary>
 <p>
 
@@ -188,7 +188,7 @@
     ```
 </p>
 </details>
-- [ ] <details><summary>Use a sans-serif typeface with a high x-height
+- [x] <details><summary>Use a sans-serif typeface with a high x-height
 
 ### Button
 ---
@@ -308,45 +308,6 @@
 
 ## Test your form for speed
 Form speed is often a neglected consideration during testing. Consider the following metrics:
-
-</summary>
-<p>
-
-    ``` 
-
-    ```
-</p>
-</details>
-- [ ] <details><summary>Time it takes the system to load and display the form initially
-</summary>
-<p>
-
-    ``` 
-
-    ```
-</p>
-</details>
-- [ ] <details><summary>Time it takes the user to complete the form
-</summary>
-<p>
-
-    ``` 
-
-    ```
-</p>
-</details>
-- [ ] <details><summary>How actual completion time relates to user expectations
-</summary>
-<p>
-
-    ``` 
-
-    ```
-</p>
-</details>
-- [ ] <details><summary>Time it takes the system to process the form and display a completion state or message
-
-
 
 
 
