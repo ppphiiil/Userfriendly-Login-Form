@@ -1,5 +1,5 @@
 # Userfriendly Login Form
-Demo: <https://ppphiiil.github.io/20210407-learning-login/>
+**Demo**: <https://ppphiiil.github.io/20210407-learning-login/>
 
 ---
 
@@ -71,7 +71,8 @@ Form speed is often a neglected consideration during testing. Consider the follo
 
 
 # TODO
-- use a Calendar in the signup form
+- [ ] use a Calendar in the signup form
+
 
 
 # Links
