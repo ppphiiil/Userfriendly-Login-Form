@@ -12,8 +12,8 @@
 ### Form elements
 
 ---
-- [x] 
-<details><summary>See which form is active</summary>
+
+<details><summary> - [x] See which form is active</summary>
 <p>
 
     ``` 
