@@ -5,10 +5,6 @@
 
 ![form example](readmefiles/form.png)
 
-## TODO
-- [ ] use a Calendar in the signup form
-- [ ] 
-
 
 
 ## This points make forms userfriendly!
@@ -17,11 +13,8 @@
 
 ---
 
-- See which form is active
-    <details><summary>Code</summary>
-    <p>
-
-    yes, even hidden code blocks!
+<details><summary>See which form is active</summary>
+<p>
 
     ``` 
     input:focus{
@@ -29,70 +22,329 @@
         outline: none;
     }
     ```
+</p>
+</details>
+<details><summary>Place labels above form elements, not to the left of them</summary>
 
-    </p>
-    </details>
+    <p>
+
+    ``` 
+    .login-form > label{
+        /* display */
+        display:block;
+        width:100%;
+
+        /* styling */
+        color:rgb(165, 167, 182);
+        /* font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif; */
+        font-size: 1.3rem;
+    }
+    ```
+</p>
+</details>
 
 
-- Place labels above form elements, not to the left of them
+- [ ] <details><summary>Arrange lists, checkboxes, and radio buttons vertically</summary>
+<p>
 
+    ``` 
 
+    ```
+</p>
+</details>
+- [ ] <details><summary>enought distance between inputs
+</summary>
+<p>
 
+    ``` 
 
-- Arrange lists, checkboxes, and radio buttons vertically
-- enought distance between inputs
-- Use a stepped or multi-screen format for long forms
-- If you do use optional fields, clearly mark them
-- correct autocomplete="tel" / autocomplete="one-time-code" /browser auto-fill
-- keyboard usability, (tab) Make your form usable without a mouse
-- inputtype and right inputmdode for showing the right keyboard
-- Optimize the order of your form fields
-- Use a one-column layout
-- Label fields clearly and concisely
-- Show extra infos: Address users’ concerns in the place they will arise
-- Always show label helper text
-- Responsive Webdesign
-- Allow copy and paste
-- On mobile, don’t auto-hide password entry
+    ```
+</p>
+</details>
+- [ ] <details><summary>Use a stepped or multi-screen format for long forms
+</summary>
+<p>
 
-- Allow users to resize fields themselves where appropriate
-- Use a sans-serif typeface with a high x-height
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>If you do use optional fields, clearly mark them
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>correct autocomplete="tel" / autocomplete="one-time-code" /browser auto-fill
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>keyboard usability, (tab) Make your form usable without a mouse
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>inputtype and right inputmdode for showing the right keyboard
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Optimize the order of your form fields
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Use a one-column layout
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Label fields clearly and concisely
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Show extra infos: Address users’ concerns in the place they will arise
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Always show label helper text
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Responsive Webdesign
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Allow copy and paste
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>On mobile, don’t auto-hide password entry
+
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Allow users to resize fields themselves where appropriate
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Use a sans-serif typeface with a high x-height
 
 ### Button
 ---
-- interactive button
-- Consider using the first-person on buttons "create my account"
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>interactive button
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Consider using the first-person on buttons "create my account"
 
 ### Valitation
 ---
-- Use inline validation in preference to submit validation
-- Wherever possible, the system should correct format errors itself
-- Use inline validation to confirm user progress
-- Ensure that error messages help the user to fix the error
-- Disable the “Next” or “Submit” button until validation is passed
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Use inline validation in preference to submit validation
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Wherever possible, the system should correct format errors itself
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Use inline validation to confirm user progress
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Ensure that error messages help the user to fix the error
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Disable the “Next” or “Submit” button until validation is passed
 
 ### data
 ---
-- if you reload the page, your input is saved in Local Storage
-- Auto-save form data
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>if you reload the page, your input is saved in Local Storage
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Auto-save form data
 
 ### sucess
 ---
-- Use success states
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Use success states
 
 ### Browser
 ---
-- Test and optimize your form for all major browsers and devices
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Test and optimize your form for all major browsers and devices
 
 
 
 ## Test your form for speed
 Form speed is often a neglected consideration during testing. Consider the following metrics:
 
-- Time it takes the system to load and display the form initially
-- Time it takes the user to complete the form
-- How actual completion time relates to user expectations
-- Time it takes the system to process the form and display a completion state or message
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Time it takes the system to load and display the form initially
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Time it takes the user to complete the form
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>How actual completion time relates to user expectations
+</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
+- [ ] <details><summary>Time it takes the system to process the form and display a completion state or message
 
 
 
@@ -102,3 +354,15 @@ Form speed is often a neglected consideration during testing. Consider the follo
 # Links
 https://trydesignlab.com/blog/ui-design-best-practices-form-design-ux-part-1/
 https://css-tricks.com/better-form-inputs-for-better-mobile-user-experiences/
+
+---
+
+Vorlage
+<details><summary>Text</summary>
+<p>
+
+    ``` 
+
+    ```
+</p>
+</details>
