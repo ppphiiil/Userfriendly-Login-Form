@@ -1,0 +1,144 @@
+/* ================================= Reset */
+
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap");
+
+:root {
+    font-size: 62.5%;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+/* ================================= Reset End */
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(25,158,168,1) 0%, rgba(162,225,216,1) 100%);
+}
+.entry{
+    height:100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 60px #3D999C;
+}
+
+.login-image {
+    /* width:400px; */
+    flex-grow: 1;
+    display: block;
+}
+
+a{
+    font-size: 1.3rem;
+    color: #1C9BA5;
+   
+}
+
+.login-form {
+    /* width:400px; */
+
+    flex-grow: 1;
+    background-color: white;
+  
+    padding: 0px 70px;
+}
+.login-form > label{
+    display:block;
+    width:100%;
+    font-size: 1.3rem;
+    color:rgb(165, 167, 182);
+  
+
+}
+.login-form > input{
+    display:block;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #31BBAD;
+    padding:10px 40px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border:0px;
+ box-shadow: 0px 0px 20px #31BBAD;
+ cursor: pointer;
+ outline: none;
+}
+
+.action{
+    text-align: center;
+}
+
+input{
+    border:0;
+    border-bottom:2px solid #2FBBAD;
+    padding: 6px 6px
+
+}
+
+input:required:invalid{
+    
+    border-bottom:2px solid #bb2f2f;
+ 
+}
+input:focus{
+    
+
+    outline: none;
+    
+    background-color: rgb(229, 229, 231);
+}
+
+
+
+.entry-h3{
+    font-size: 1.5rem;
+    color: #1C9BA5;
+    margin-top:40px;
+    margin-bottom:60px;
+    font-weight: 900;
+}
+
+.entry-h1{
+    font-size: 3rem;
+    color: black;
+    margin-bottom:8px;
+}
+
+.entry-h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom:30px;
+}
+
+
+
+
+.hide {
+    display: none;
+}
+
+.signup-screen {
+    background-color: aquamarine;
+    width: 400px;
+}
